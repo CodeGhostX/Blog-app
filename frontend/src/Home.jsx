@@ -14,6 +14,7 @@ const Home = () => {
   },[])
   return (
     <div className="flex flex-col gap-20 my-5">
+      <h1 className="text-3xl text-blue-800">Adding Something in the Home to check</h1>
       {
         myPosts?.map((post)=>{
           return <Link to={`/post/${post._id}`}>
